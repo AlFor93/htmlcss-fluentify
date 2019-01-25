@@ -15,14 +15,53 @@ nav{
   height: 150px;
   line-height: 150pX;
   display: inline-block;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   color: aliceblue;
 }
-.nav_all
+.nav_all:after{
+  clear: both;
+  content: "";
+  display: table;
+}
 .nav_left{
   float: left;
 }
 .nav_right{
   float: right;
+}
+.bg_blue{
+    background-color: #0d325a;
+    color: aliceblue;
+}
+.sleeveSX{
+  width: 40%;
+  float: left;
+  height: 500px;
+  font-size: 34px;
+  position: relative;
+}
+.sleeveDX{
+  width: 60%;
+  height: 500px;
+  float: right;
+}
+.ce{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.old_man{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+  background-size: cover;
+  background-position: center;
+  transform: scale(0.5) translate(-70px,25px);
 }
