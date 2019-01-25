@@ -65,3 +65,43 @@ nav{
   background-position: center;
   transform: scale(0.5) translate(-70px,25px);
 }
+.left,.center,.right{
+  float: left;
+  width: 33.333%;
+}
+.mt-20{
+  margin-top: 20px;
+}
+#why-fluentify img{
+  width: 135px;
+  height: 160px;
+}
+#why-fluentify,#level{
+  text-align: center;
+}
+#why-fluentify h3{
+  color: #7fb802;
+}
+.half{
+  float: left;
+  width: 50%;
+  height:400px;
+}
+#level img{
+  width: 400px;
+  height: 350px;
+}
+#lev_h_DX{
+  position: relative;
+}
+#lev_DX{
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#lev_DX>h2{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
