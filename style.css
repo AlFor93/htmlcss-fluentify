@@ -17,6 +17,7 @@ nav{
   display: inline-block;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: 60px;
   color: aliceblue;
 }
 .nav_all:after{
@@ -26,9 +27,35 @@ nav{
 }
 .nav_left{
   float: left;
+  width: 70%;
+}
+.nav_left span{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nav_left span:hover{
+  color: coral;
 }
 .nav_right{
   float: right;
+  width:30%;
+}
+#login{
+  background-color: #0d325a;
+  border: 1px solid #0275d8;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+.plain{
+  background-color: #7fb802;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  color: aliceblue;
 }
 .bg_blue{
     background-color: #0d325a;
