@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #0d325a;
+}
+.container{
+  width: 80vw;
+  margin: auto;
+}
+.nav_all{
+  width: 100%;
+  height: 150px;
+  line-height: 150pX;
+  display: inline-block;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: aliceblue;
+}
+.nav_all
+.nav_left{
+  float: left;
+}
+.nav_right{
+  float: right;
+}
